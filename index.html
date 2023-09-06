@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Daniel Adolfo Quiroz</title>
+</head>
+<body>
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                    <div class="contenido-header">
+                        <h1>/Daniel Adolfo Quiroz/</h1>
+                            <nav id="nav" class="">   
+                                <ul id="links">
+                                    <li><a href="index.html" class="seleccionado" onclick="seleccionar(this)">About me</a></li>
+                                    <li><a href="research.html" onclick="seleccionar(this)">Research</a></li>
+                                    <li><a href="teaching.html" onclick="seleccionar(this)">Teaching</a></li>
+                                    <li><a href="contact.html"  onclick="seleccionar(this)">Contact</a></li>
+                                </ul>
+                            </nav> 
+                            <!--barra-->
+                            <div id="icon-nav" class="" onclick="responsiveMenu()">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                            <!--Redes-->
+                            <div class="redes">
+                                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="#" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>                                               
+                            </div>
+                    </div>
+            </header>
+            <div class="informacion">
+
+                 <div class="contacto">                   
+                                
+                    <p class="title">About</p>
+                    <p>
+                        Hello. I am a Visiting Assistant Professor (Profesor Adjunto) at the <a href="http://www.dim.uchile.cl/" target="_blank">Department of Mathematical Engineering</a> at the Universidad de Chile.
+                    </p>
+                    <p>
+                        I am also an associate researcher at the <a href="http://www.cmm.uchile.cl/" target="_blank">Center for Mathematical Modeling</a>, where I held a one-year (Sept. 2017-Sept. 2018) post-doc position, working with <a href="">Maya Stein</a>. I completed my PhD at the Department of Mathematics of the London School of Economics, under the supervision of Jan van den Heuvel.
+                    </p>
+                    <p> 
+                        My research interest lie in combinatorics, particularly in the interplay between chromatic and structural properties of graphs.</p>  
+                    <p>
+                        For further information, you can look at the Research and Teaching sections of this website
+                    </p> 
+                    <p>
+                        You can also have a look at my <a href="https://scholar.google.com/citations?user=87gOpkEAAAAJ&hl=en&oi=sra" target="_blank">Google Scholar page</a>.
+                    </p>                
+                </div>
+                <div class="foto">
+                    <img src="img/fotoweb.jpg" alt="">
+                </div>
+            </div>
+        </div> 
+    </section>
+    <footer>
+        <p>Todos los derechos reservados 2022</p>
+        
+        <div class="redes-footer">
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-github"></i></a>
+            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+      
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
